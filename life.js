@@ -42,8 +42,6 @@ function drawGraph(args) {
     const encoder = args.encoder;
     const res = args.response;
     const delay = args.delay;
-    const frames = args.frames;
-
     const days = contributions.getDays();
     const dimensions = life.getWidth() * life.getHeight();
 
